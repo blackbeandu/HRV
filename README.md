@@ -37,6 +37,7 @@ for x in X.columns:
     best.append(["{} 정확도 : ".format(x), loaded_model.evaluate(X_test, y_test)[1] ])
 ```
 <br>
+![hrv_best](https://user-images.githubusercontent.com/70587454/182335921-e50426f5-dfe2-4caf-8b38-0b9201db54ba.JPG)
 <br>
 
 ##### 수정된 최종 모델
