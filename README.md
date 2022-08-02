@@ -37,7 +37,7 @@ for x in X.columns:
     best.append(["{} 정확도 : ".format(x), loaded_model.evaluate(X_test, y_test)[1] ])
 ```
 <br>
-![hrv_best](https://user-images.githubusercontent.com/70587454/182335921-e50426f5-dfe2-4caf-8b38-0b9201db54ba.JPG)
+ <img width="50%" src="https://user-images.githubusercontent.com/70587454/182335921-e50426f5-dfe2-4caf-8b38-0b9201db54ba.JPG"/>
 <br>
 
 ##### 수정된 최종 모델
@@ -88,4 +88,14 @@ def kfold_func(kfold,X, y):
 ```
 
 <br>
+<img width="55%" src="https://user-images.githubusercontent.com/70587454/182336116-f21c1f59-50a3-4ed6-acbf-e0729ca680ff.JPG"/>
+<br>
+<br>
+
+#### Frequency_domain_features_accuracy
+<img width="55%" src="https://user-images.githubusercontent.com/70587454/182335988-ac97a259-c576-4913-a32f-eb3e9c19c582.JPG"/>
+<br>
+
+#### 통계_features_accurac
+<img width="55%" src="https://user-images.githubusercontent.com/70587454/182336004-8615c360-8917-45ab-a479-f7b6342ad050.JPG"/>
 <br>
